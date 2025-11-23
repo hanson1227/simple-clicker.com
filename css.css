@@ -1,0 +1,95 @@
+/*the pannel*/
+#pannel{
+  background-color: lightskyblue;
+  margin: 0;
+  color: lightskyblue;
+  width: 370px;
+  height: 80vh;
+  transform: translate(80em, -38.5em);
+  border: 3px black solid;
+  border-radius: 12px;
+  z-index: 1;
+  position: relative;
+}
+/*the body*/
+#body{
+  background-color: darkgray;
+  overflow: hidden;
+  position: fixed;
+}
+/*the main button*/
+#button{
+  display: block;
+  border-radius: 1000px;
+  border: 0;
+  outline: 5px solid black;
+  margin-left: calc(50vw - 200px);
+  margin-right: calc(50vw - 200px);
+}
+
+#button{
+  transition: 0.1s;
+  background-color: deepskyblue;
+  width: 400px;
+  height: 400px;
+}
+
+#button:active{
+ background-color: skyblue;
+ transition: 0.1s;
+ scale: 1.01;
+}
+/*the shop button*/
+#shopB{
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  border: 0;
+  outline: 2.5px solid black;
+  background-color: tomato;
+  font-size: 15px;
+  margin-top: 0;
+  transform: translateY(-35px);
+}
+
+#shopB{
+  transition: 0.1s;
+  width: 100px;
+  height: 100px;
+}
+
+#shopB:active{
+  scale: 1.01;
+  background-color: lightcoral;
+  transition: 0.1s;
+  text-align: center;
+}
+/*the ugrade buttons*/
+#upgrade1{
+  height: 100px;
+  width: 325px;
+  transform: translate(90em, -35.5em);
+  background: mediumseagreen;
+  border-radius: 10px;
+  border: 0;
+  outline: 3px solid black;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+#upgrade1:active{
+  background-color: #9ee6b1;
+  transition: 0.1s;
+  transform: translate(60em, -35.5em) scale(1.01) !important;
+}
+
+/*text*/
+h1{
+  font-family:roboto, sans-serif;
+  font-size: 50px;
+}
+#spc{
+  font-family:roboto, sans-serif;
+  transform: translateY(-77.25em);
+}
